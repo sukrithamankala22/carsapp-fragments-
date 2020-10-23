@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="0.1"
+        >
+    <Button
+
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="Suzuki"
+        android:onClick="suzukic"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+         />
+    <Button
+        android:onClick="bmwc"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="BMW"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        />
+    <Button
+
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="Honda"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="hondac"
+        />
+    <Button
+
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="Kia"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:onClick="kiac"
+        />
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        >
+    </FrameLayout>
+
+</LinearLayout>

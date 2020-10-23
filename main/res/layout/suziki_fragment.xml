@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:orientation="horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.37">
+
+    <Button
+        android:id="@+id/sb1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="Swift"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp" />
+    <Button
+        android:id="@+id/sb2"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="Ciaz"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        />
+    <Button
+        android:id="@+id/sb3"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="brezza"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+ />
+    <Button
+        android:id="@+id/sb4"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="0.25"
+        android:background="#E91E63"
+        android:text="dezire"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginLeft="2dp"
+ />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="680dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        android:layout_weight="0.4"
+        >
+
+        <ImageView
+            android:id="@+id/simg"
+            android:layout_width="311dp"
+            android:layout_height="408dp"
+            android:layout_gravity="center"
+            android:src="@drawable/suzuki_logo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:id="@+id/st"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="3"
+    android:orientation="horizontal"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.37">
+
+        <Button
+            android:id="@+id/bb1"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:background="#E91E63"
+            android:text="X1"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp" />
+        <Button
+            android:id="@+id/bb2"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:background="#E91E63"
+            android:text="X3"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            />
+        <Button
+            android:id="@+id/bb3"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:background="#E91E63"
+            android:text="X5"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            />
+        <Button
+            android:id="@+id/bb4"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="0.25"
+            android:background="#E91E63"
+            android:text="X5"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginLeft="2dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="680dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1dp"
+        android:orientation="vertical"
+        android:layout_weight="0.4"
+        >
+
+        <ImageView
+            android:id="@+id/bimg"
+            android:layout_width="311dp"
+            android:layout_height="408dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bmw_logo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18dp"
+            android:textColor="#00897B"
+            android:textStyle="bold"
+            android:id="@+id/bt"/>
+
+    </LinearLayout>
+</LinearLayout>
